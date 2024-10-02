@@ -18,12 +18,12 @@ conda env create -f DUCAT.yaml
 ## 3. Training code
 
 ```
-# Example for PGD-AT + DUCAT
+# Example for PGD-AT + DUCAT 
 python train.py --mode adv_train --dummy --epochs 130 --dataset cifar10 --augment_type base
 
-# Example for MART + DUCAT
+# Example for MART + DUCAT 
 python train.py --mode adv_mart --dummy --epochs 130 --dataset cifar10 --augment_type base
 
-# Example for Consistency-AT + DUCAT
+# Example for Consistency-AT + DUCAT 
 python train.py --mode adv_train --consistency --dummy --epochs 130 --dataset cifar10 --augment_type base
 ```
