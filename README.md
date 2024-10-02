@@ -5,7 +5,6 @@
 
 ```
 conda env create -f DUCAT.yaml
-
 ```
 
 
@@ -22,10 +21,9 @@ conda env create -f DUCAT.yaml
 # Example for PGD-AT + DUCAT
 python train.py --mode adv_train --dummy --epochs 130 --dataset cifar10 --augment_type base
 
-# Example for Consistency-AT + MART
+# Example for MART + DUCAT
 python train.py --mode adv_mart --dummy --epochs 130 --dataset cifar10 --augment_type base
 
 # Example for Consistency-AT + DUCAT
 python train.py --mode adv_train --consistency --dummy --epochs 130 --dataset cifar10 --augment_type base
-
 ```
