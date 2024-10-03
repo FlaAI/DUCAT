@@ -1,6 +1,3 @@
-# New Paradigm of Adversarial Training: Breaking Inherent Trade-Off between Accuracy and Robustness via Dummy Classes
-
-
 ## 1. Dependencies
 
 ```
